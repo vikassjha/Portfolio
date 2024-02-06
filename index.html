@@ -1,0 +1,85 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            MyPortfolio
+        </title>
+        <link rel="stylesheet" href="styles.css">
+       <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    </head>
+    <body>
+        <div class="scroll-up-btn">
+            <i class="fa fa-angle-up"></i>
+        </div>
+       <nav class="navbar">
+        <div class="max-width" >
+            <div class="logo" >MyPortfo<span style="color:crimson">lio.</span></div>
+            <ul class="menu" >
+                <li id="li1"  onmouseover="onMousehover('li1')" onmouseout="onMouseOut('li1')">
+                   <a href="#top">Home</a>
+                </li>
+                <li id="li2" onmouseover="onMousehover('li2')" onmouseout="onMouseOut('li2')">
+                    <a href="#about">About</a>
+                 </li>
+                 <li id="li3"  onmouseover="onMousehover('li3')" onmouseout="onMouseOut('li3')">
+                    <a href="#about">Projects</a>
+                 </li>
+                 <li id="li4" onmouseover="onMousehover('li4')" onmouseout="onMouseOut('li4')">
+                    <a href="#about">Skills</a>
+                 </li>
+                 <li id="li5"  onmouseover="onMousehover('li5')" onmouseout="onMouseOut('li5')">
+                    <a href="#about">Contact</a>
+                 </li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa fa-bars" style="font-size:26px;color:white;cursor:pointer"></i>
+            </div>
+
+        </div>
+       </nav>
+     
+      <!--about    section-->
+
+      <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text1">Hello, my name is</div>
+                <div class="text2">Vikas Jha</div>
+                <div class="text3">And I'm a <span class="typing"></span></div>
+            </div>
+        </div>
+   </section>
+   <section class="about" id="about">
+    <div class="max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+            <div class="column left">
+                <img src="C:/Users/vikassjha/Desktop/MyPortfolio/images/vikas1.jpg"/>
+            </div>
+            <div class="column right">
+                <div class="text">I'm Vikas and I'm a <span>Developer</span></div>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quo doloremque? Sed accusamus veritatis, libero possimus ullam neque cum corrupti, nulla repellendus voluptatem accusantium quasi distinctio dolorem dicta architecto maiores!</p>
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+       <div class="cookieClass" id="cookieDiv"  >
+        <img src="C:/Users/vikassjha/Desktop/MyPortfolio/images/cookies.png"/>
+        <p>
+        <bold> Our website uses cookies to provide your browsing experience and relevant information. Before continuing to use our website ,you agree and accept our Cookie Policy and Privacy.</bold>
+         </p>
+         <input type="button" value="Accept" id="cookiebtn" />
+       </div>
+          <!-- <p>
+        <h1><center>Loading Soon</center></h1>
+       </p> -->
+       <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
